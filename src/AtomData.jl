@@ -1,19 +1,8 @@
 module AtomData
 
 using Unitful, HalfIntegers
+using AtomBase
 import Unitful: Wavenumber, Mass
-
-export QuantumState, FineStructure,
-       HyperfineConstant,
-       FineLevel, EnergyLevel,
-       Atom
-#=
-FineStructure <: QuantumState
-HyperfineConstant
-FineLevel <: EnergyLevel
-Atom
-=#
-include("types.jl")
 
 const FS = Dict(
             "2S1/2" => FineStructure(0, 1/2, 1/2),
