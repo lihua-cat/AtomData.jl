@@ -14,14 +14,14 @@ end
 # ╔═╡ 7893d944-fe67-4bba-9753-b4d8de21fa20
 using AtomData
 
-# ╔═╡ eb26c845-054b-4112-893a-3b3478a47222
-Li6
+# ╔═╡ 1aabcad6-f169-415c-afe2-2670a410fdec
+AtomData.FS
 
 # ╔═╡ 1eb91621-5d46-48d2-b5e1-913ff93fa696
 I127
 
-# ╔═╡ 1aabcad6-f169-415c-afe2-2670a410fdec
-AtomData.FS
+# ╔═╡ eb26c845-054b-4112-893a-3b3478a47222
+Li6
 
 # ╔═╡ Cell order:
 # ╠═3dd08a64-6c63-43f3-8c3a-f9d8c2068253
