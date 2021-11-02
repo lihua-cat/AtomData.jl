@@ -8,6 +8,7 @@ using InteractiveUtils
 begin
 	import Pkg
 	Pkg.activate(mktempdir())
+	Pkg.add(url = "https://github.com/lihua-cat/AtomBase.jl")
 	Pkg.add(url = "https://github.com/lihua-cat/AtomData.jl")
 end
 
