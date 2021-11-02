@@ -1,7 +1,11 @@
 name = "AtomData"
 uuid = "2a3a9442-ae7c-4eb9-9d4e-e2b75cee2648"
 authors = ["Northwemko <yinyangxiangsheng@gmail.com> and contributors"]
-version = "0.1.0"
+version = "1.0.0"
+
+[deps]
+HalfIntegers = "f0d1745a-41c9-11e9-1dd9-e5d34d218721"
+Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
 
 [compat]
 julia = "1"

@@ -1,1 +1,1 @@
-# AtomData
+# AtomData.jl
