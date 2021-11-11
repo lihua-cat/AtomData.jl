@@ -44,7 +44,6 @@ Atom
 - `ground::FineLevel`               only one ground state (fine stucture)
 - `excited::Vector{FineLevel}`      several excited states (fine stucture)
 """
-
 struct Atom
     M::Mass                         # relative atomic mass, default in unit `u`
     gI::Float64                     # nuclear Lande g-factor
