@@ -6,7 +6,7 @@ function iodine(;M::Mass, gI::Real, I::Real, A::Vector{<:Wavenumber}, B::Vector{
     Atom(M, gI, I, ground, excited)
 end
 
-A_I127 = [27.59, 38.12] / 1000 * u"cm^-1"
-B_I127 = [219.73, 0] / 1000 * u"cm^-1"
+A_I127 = [27.59, 219.73] / 1000 * u"cm^-1"
+B_I127 = [38.12, 0] / 1000 * u"cm^-1"
 E_I127 = [0, 7602.9768] * u"cm^-1"
 I127 = iodine(M = 126.9u"u", gI = 1.1232, I = 5//2, A = A_I127, B = B_I127, E = E_I127)
