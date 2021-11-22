@@ -3,6 +3,7 @@ module AtomData
 using Unitful, HalfIntegers
 import Unitful: Wavenumber, Mass
 
+export Atom
 include("types.jl")
 
 const FS = Dict(
