@@ -12,6 +12,7 @@ AtomData.jl is a julia package contains useful reference data for some of the al
   - [ ] Iodine 129
 
 ## Structs and Functions
+### Struct `Atom`
 atom data is stored in `Atom` struct
 ```julia
 struct Atom
@@ -39,7 +40,7 @@ struct HyperfineConstant
     B::Wavenumber{<:Real}   # electric quadrupole constant
 end
 ```
-example: iodine 127
+### Example: iodine 127 `I127`
 ```julia
 using AtomData
 
