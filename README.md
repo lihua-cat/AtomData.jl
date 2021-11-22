@@ -11,7 +11,7 @@ AtomData.jl is a julia package contains useful reference data for some of the al
   - [x] Iodine 127
   - [ ] Iodine 129
 
-## Struct and Function
+## Structs and Functions
 atom data is stored in `Atom` struct
 ```julia
 struct Atom
